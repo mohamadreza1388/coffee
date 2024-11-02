@@ -1,0 +1,88 @@
+doctype html
+html(lang="en")
+    head
+        //meta tag
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no")
+        meta(name="developer" content="mohamadreza nasrale zade---mohamadreza1388.org@gmail.com")
+        meta(name="developer phone" content="09030422838")
+        //web title
+        title سایت آماده فروشگاه قهوه و تجهیزات آن
+        //web favicon
+        link(rel="icon" type="image/png" href="images/fav-icon.svg" sizes="30x30")
+        //css link
+        link(rel="stylesheet" href="../css/style.min.css")
+        link(rel="stylesheet" href="css/log-register.min.css")
+        link(rel="stylesheet" href="../css/responsive.min.css")
+    body.bg-2.d-none.overflow-x-hidden.overflow-y-auto
+        include header
+        main.margin-top-70px.position-relative
+            div.my-container.row.min-height-400px
+                div.col-md-6.col-12.register
+                    h5.f-rokh.fw-bold ثبت نام
+                    div.l-r-container.bg-white.rounded-4.w-100.p-3
+                        form(action="#" method="post")
+                            div.mb-3
+                                label(for="userName").f-rokh.form-label نام کاربری
+                                    |
+                                    |
+                                    span.red *
+                                input(type="text" class="form-control" name="userName" id="userName" minlength="3" maxlength="150" required).text-start.rounded-3.border-0.bg-2.py-2
+                            div.mb-3
+                                label(for="userEmail").f-rokh.form-label ادرس ایمیل
+                                    |
+                                    |
+                                    span.red *
+                                input(type="email" class="form-control" name="userEmail" id="userEmail" minlength="5" maxlength="200" required).text-start.rounded-3.border-0.bg-2.py-2
+                            div.mb-3
+                                label(for="userPass").f-rokh.form-label گذرواژه
+                                    |
+                                    |
+                                    span.red *
+                                div.inp-box.position-relative
+                                    i.fas.fa-eye.position-absolute
+                                    input(type="password" name="userPass" id="userPass" class="form-control" aria-describedby="passwordHelpBlock" minlength="8" maxlength="16" required).text-start.rounded-3.border-0.bg-2.py-2
+
+                            span.text-secondary.font-size-14px
+                                | اطلاعات شخصی شما برای پردازش سفارش شما استفاده می‌شود، و پشتیبانی از تجربه شما در این وبسایت، و برای اهداف دیگری که در
+                                |
+                                |
+                                a(href="#").green.font-size-16px سیاست حفظ حریم خصوصی
+                                |
+                                |
+                                | توضیح داده شده است.
+                            button(type="submit").border-0.bg-1.rounded-3.d-block.mt-3.text-white.py-2.px-4.s-btn ثبت نام
+                div.col-md-6.col-12.login
+                    h5.f-rokh.fw-bold.mt-5.mt-md-0 ورود
+                    div.l-r-container.bg-white.rounded-4.w-100.p-3
+                        form(action="#" method="#")
+                            div.mb-3
+                                label(for="userEmail2").f-rokh.form-label ادرس ایمیل یا نام کاربری
+                                    |
+                                    |
+                                    span.red *
+                                input(type="email" class="form-control" name="userEmail2" id="userEmail2" minlength="5" maxlength="200" required).text-start.rounded-3.border-0.bg-2.py-2.email
+                            div.mb-3
+                                label(for="userPass2").f-rokh.form-label گذرواژه
+                                    |
+                                    |
+                                    span.red *
+                                div.inp-box.position-relative
+                                    i.fas.fa-eye.position-absolute
+                                    input(type="password" name="userPass2" id="userPass2" class="form-control" aria-describedby="passwordHelpBlock" minlength="8" maxlength="16" required).text-start.rounded-3.border-0.bg-2.py-2
+                            br
+                            button(type="submit").border-0.bg-1.rounded-3.mt-3.text-white.py-2.px-4.s-btn ثبت نام
+                            div.form-check.d-inline-block.ms-3.align-middle
+                                input.form-check-input(type="checkbox", value="", id="flexCheckDefault" required)
+                                label.form-check-label(for="flexCheckDefault").text-secondary.font-size-14px.cursor-pointer مرا به خاطر بسپار
+                            a(href="#").green.d-block.mt-3.font-size-13px گذرواژه خود را فراموش کرده اید؟
+
+
+
+        include footer
+        script(src="../node_modules/jquery/dist/jquery.min.js")
+        script(src="../node_modules/owl.carousel/dist/owl.carousel.min.js")
+        script(src="../node_modules/slick-carousel/slick/slick.min.js")
+        script(src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js")
+        script(src="../scripts/cssMyLibrary.min.js")
+        script(src="../scripts/index.min.js")

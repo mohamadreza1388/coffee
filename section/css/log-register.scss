@@ -1,0 +1,28 @@
+$color1: #007E57;
+$color2: #F7F7F8;
+$color3: #EFEFF1;
+$color4: #1b1b1d;
+
+.red{
+  color: red;
+}
+.form-control:focus{
+  background-color: $color2;
+}
+.form-control:user-invalid{
+  box-shadow: 0 0 0 .25rem rgba(255, 0, 0, 0.4);
+}
+.inp-box{
+  i{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    cursor: pointer;
+  }
+}
+.s-btn{
+  transition: all 300ms;
+  &:hover{
+    background-color: #331603;
+  }
+}

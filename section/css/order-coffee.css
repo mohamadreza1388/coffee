@@ -1,0 +1,32 @@
+#coffee-container .my-container .item-wrapper {
+  flex-wrap: wrap;
+  padding-right: 32px !important;
+}
+#coffee-container .my-container .item {
+  flex-basis: 31%;
+  padding: 12px !important;
+  transition: all 500ms;
+}
+#coffee-container .my-container .active-item {
+  background-color: #e3e3e5;
+}
+#coffee-container .my-container .title-caption {
+  font-size: 14px;
+}
+#coffee-container .my-container .range-input-box input[type=range] {
+  appearance: none;
+  height: 30px !important;
+  background-color: #EFEFF1;
+  border-radius: 200px;
+  accent-color: #007E57;
+  cursor: pointer;
+}
+#coffee-container .my-container .range-input-box input[type=range]::-webkit-slider-thumb {
+  scale: 2;
+}
+#coffee-container .my-container .error1 {
+  border: 1px solid red;
+  display: none;
+}
+
+/*# sourceMappingURL=order-coffee.css.map */

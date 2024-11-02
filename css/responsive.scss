@@ -1,0 +1,337 @@
+@media screen and (max-width: 992px) {
+  .top-header {
+    height: auto !important;
+    padding-block: 12px;
+  }
+  .site-logo img {
+    width: 43px;
+    height: 43px;
+  }
+  .top-header ul li a:is(:link,:visited) {
+    font-size: 14px;
+  }
+  main .title {
+    font-size: 33px;
+  }
+  main .sub-title {
+    margin-top: 60px;
+    font-size: 27px;
+  }
+  .green-btn:is(:link,:visited),
+  .white-btn:is(:link,:visited) {
+    font-size: 12px;
+  }
+  .btn-box {
+    width: 240px;
+  }
+  main .img {
+    width: 80px;
+  }
+  main .left-img {
+    height: 100% !important;
+  }
+  main .picture-box + img {
+    width: 80px;
+    height: 80px;
+  }
+  #type-product > .my-container > div > img {
+    width: 38px;
+    height: 38px;
+  }
+  #type-product > .my-container > div > h4 {
+    font-size: 16px;
+  }
+  #type-product > .my-container > div > p {
+    font-size: 10px;
+  }
+  #count-down {
+    justify-content: center;
+    align-items: center;
+
+    > div {
+      width: 40px !important;
+      height: 100% !important;
+    }
+
+    .caption {
+      font-size: 11px;
+    }
+  }
+  #special-sale {
+    p:first-child {
+      font-size: 11px;
+      line-height: 1.8 !important;
+    }
+  }
+  .product {
+    margin: 0 8px;
+
+    .title {
+      font-size: 14px !important;
+    }
+  }
+  #about-store {
+    h1:first-child {
+      margin-top: 90px !important;
+    }
+
+    .green-btn {
+      transform: translateX(120%);
+    }
+
+    p {
+      line-height: 1.7 !important;
+      font-size: 13px;
+    }
+  }
+  #right-choice {
+    p {
+      font-size: 12px !important;
+      line-height: 1.7 !important;
+    }
+
+    > .my-container > .row > .col-6:first-child img {
+      margin-top: 40px;
+    }
+
+    > .my-container > .row > .col-6:last-child h1 {
+      margin-top: 40px !important;
+    }
+  }
+  #new-products .product-wrapper .product {
+    flex-basis: 31%;
+  }
+  #custom-combination div > img:first-child {
+    width: 65px !important;
+    height: 65px !important;
+  }
+  #custom-combination div > span {
+    font-size: 16px !important;
+  }
+  #custom-combination div > span + img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .footer-content {
+    div.col-3:first-child {
+      a:is(:link,:visited) img {
+        width: 155px !important;
+        height: 43px !important;
+      }
+
+      p {
+        font-size: 11px !important;
+        text-align: justify;
+      }
+    }
+
+    .footer-title {
+      i {
+        font-size: 8px !important;
+      }
+
+      h5 {
+        font-size: 15px;
+      }
+    }
+
+    div.col-2:nth-child(4) {
+      .footer-list li {
+        font-size: 12px;
+
+        img {
+          width: 18px !important;
+          height: 18px !important;
+        }
+      }
+    }
+
+    div.col-3:last-child {
+      p {
+        font-size: 11px !important;
+      }
+
+      .mojavez-box {
+        img {
+          width: 70px !important;
+          height: 70px !important;
+        }
+      }
+    }
+  }
+  main.store {
+    .product-container div[class^="page"] {
+      .product {
+        flex-basis: 48% !important;
+      }
+    }
+  }
+  .order-coffee{
+    .text-header{
+      margin-top: 80px !important;
+    }
+    p{
+      font-size: 14px !important;
+    }
+  }
+  .error1{
+    font-size: 12px;
+  }
+
+  .list{
+    width: 100% !important;
+  }
+
+  .blog-container>div.col-12{
+    flex-wrap: wrap;
+    height: auto !important;
+  }
+  .blog-container>div.col-12:nth-child(1) .item{
+    flex-basis: 100% !important;
+  }
+  .blog-container>div.col-12:nth-child(2) .item{
+    flex-basis: 100% !important;
+  }
+
+  .about-main{
+    .text-header{
+      margin-top: 20px !important;
+    }
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  #customMix .item-container{
+    flex-wrap: wrap;
+  }
+  #customMix .item-container .item{
+    flex-basis: 40% !important;
+  }
+  main .left-img {
+    height: 285px !important;
+  }
+  main .picture-box + img {
+    rotate: 410deg;
+  }
+  main .btn-box {
+    margin-block: 25px !important;
+  }
+  #special-sale {
+    height: 430px !important;
+
+    > .my-container > div.row > div:last-child {
+      width: 95% !important;
+      margin: 0 auto 15px !important;
+    }
+  }
+  #about-store > .my-container > div.row > div:last-child > img,
+  #right-choice > .my-container > div.row > div:first-child > img {
+    height: 340px !important;
+    width: 100% !important;
+    object-fit: contain !important;
+    margin-top: 25px !important;
+  }
+  #about-store > .my-container > div.row > div:first-child > h1:first-child,
+  #right-choice > .my-container > div.row > div:last-child > h1:first-child {
+    margin-top: 30px !important;
+  }
+  #new-products .product-wrapper .product {
+    flex-basis: 100%;
+  }
+  #custom-combination > .my-container > div.row > div {
+    margin-block: 15px !important;
+
+    &:first-child img:last-child {
+      top: 37px !important;
+      left: 134px !important;
+      rotate: -92deg !important;
+    }
+
+    &:nth-child(2) img:last-child {
+      top: 62px !important;
+      left: 410px !important;
+      rotate: 270deg !important;
+    }
+  }
+  .news-letters {
+    height: auto !important;
+    padding-block: 15px;
+
+    > div:first-child {
+      margin-bottom: 15px;
+    }
+  }
+
+  #count-down {
+    > div {
+      width: 55px !important;
+      height: 55px !important;
+      margin-inline: 5px;
+    }
+  }
+  main.store {
+    .product-container div[class^="page"] {
+      .product {
+        flex-basis: 100% !important;
+      }
+    }
+  }
+  #coffee-container{
+    .my-container{
+      .item{
+        padding: 8px !important;
+        h4{
+          font-size: 20px;
+        }
+        span{
+          font-size: 13px !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .acc .head{
+    font-size: 17px !important;
+  }
+  #custom-combination > .my-container > div.row > div {
+    &:first-child img:last-child {
+      top: 37px !important;
+      left: 60px !important;
+      rotate: -92deg !important;
+    }
+
+    &:nth-child(2) img:last-child {
+      top: 62px !important;
+      left: 350px !important;
+      rotate: 270deg !important;
+    }
+  }
+  .mojavez-box {
+    img {
+      width: 60px !important;
+      height: 60px !important;
+    }
+  }
+  .copy-right .content {
+    font-size: 12px !important;
+  }
+  .copy-right .social-media a:is(:link,:visited) {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  #coffee-container{
+    .my-container{
+      .item{
+        flex-basis: 100%;
+        img{
+          width: 100px !important;
+        }
+      }
+    }
+  }
+
+
+}

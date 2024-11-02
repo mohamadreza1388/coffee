@@ -1,0 +1,90 @@
+doctype html
+html(lang="en")
+    head
+        //meta tag
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no")
+        meta(name="developer" content="mohamadreza nasrale zade---mohamadreza1388.org@gmail.com")
+        meta(name="developer phone" content="09030422838")
+        //web title
+        title سایت آماده فروشگاه قهوه و تجهیزات آن
+        //web favicon
+        link(rel="icon" type="image/png" href="images/fav-icon.svg" sizes="30x30")
+        //css link
+        link(rel="stylesheet" href="../css/style.min.css")
+        link(rel="stylesheet" href="css/store.min.css")
+        link(rel="stylesheet" href="../css/responsive.min.css")
+    body.bg-2.d-none.overflow-x-hidden.overflow-y-auto
+        include header
+        main.margin-top-50px.position-relative.store
+            div.my-container.row.min-height-450px
+                div.loading.position-fixed.top-0.start-0.w-100.vh-100
+                    div.loader
+                div.col-lg-3.p-0.col-12.mb-lg-0.mb-5
+                    div.menu-container.position-sticky.top-10px.start-0
+                        div.search
+                            form(action="#" method="get")
+                                input(type="search" name="search" id="search-inp" minlength="2" placeholder="جستجو کنید..." maxlength="100" required).form-control.border-0.mb-2.py-2
+                                button(type="submit").bg-1.border-0.rounded-3.w-100.py-2.text-white.mt-1 جستجو کنید
+                        form(action="#" method="get")
+                            div.filter.bg-white.rounded-3.p-3.w-100.mt-4
+                                header.mb-3 فیلتر قیمت
+                                div.slider.height-5px.position-relative.rounded.bg-secondary-subtle
+                                    div.progress.h-100.position-absolute.rounded-2.bg-1
+                                div.range-input.position-relative
+                                    input(type="range", class="range-min", min="0", max="2750000", value="0", step="100").position-absolute.w-100.height-5px
+                                    input(type="range", class="range-max", min="0", max="2750000", value="2750000", step="100").position-absolute.w-100.height-5px
+                                div.price-input.d-flex.justify-content-center.align-items-center.gap-1.w-100.mt-3
+                                    h6(class="input-min").border-0.width-fit-content.text-center 0 تومان
+                                    span.margin-top--8px —
+                                    h6(class="input-max").border-0.width-fit-content.text-center 2750000 تومان
+
+
+
+
+
+
+                            select(class="form-select" aria-label="Default select example").mt-4.border-0.py-2
+                                option(selected) دسته بندی محصولات...
+                                option(value="Uncategorized") بدون دسته بندی
+                                option(value="tea-maker") چایی ساز
+                                option(value="Chocolate") شکلات
+                                option(value="Coffee") قهوه
+                                option(value="coffee-maker") قهوه ساز
+                                option(value="mug") ماگ
+
+                            select(class="form-select" aria-label="Default select example").mt-4.border-0.py-2
+                                option(selected) برند محصولات...
+                                option(value="Robusta") روبوستا
+                                option(value="Arabica") عربیکــا
+
+                            button(type="submit").bg-1.border-0.rounded-3.w-100.py-2.text-white.mt-4.my-shadow اعمال فیلتر
+
+                div.col-lg-9.p-0.ps-4.left-side.col-12
+                    header.w-100.bg-white.border-radius-10px.height-63px.d-flex.align-items-center.justify-content-between.px-3
+                        h5.f-rokh.font-weight-900.text-dark-emphasis.m-0 فروشگاه
+                        select(class="form-select form-select-sm" aria-label="Default select example").border-0.width-270px.bg-2.height-42px.d-flex.align-items-center.justify-content-start
+                            option(selected) مرتب سازی بر اساس...
+                            option(value="3") براساس قیمت از ارزان ترین به گران ترین
+                            option(value="2") براساس قیمت از گران ترین به ارزان ترین
+                            option(value="2") براساس تاریخ از قدیمی ترین به جدیدترین
+                            option(value="2") براساس تاریخ از جدیدترین به قدیمی ترین
+
+
+                    div.product-container
+                    footer.bg-white.w-100.height-48px.d-flex.align-items-center.justify-content-center.border-radius-10px.mt-5
+                        nav(aria-label="Page navigation example")
+                            ul.pagination.m-0
+                                li.page-item
+                                    a.page-link(href="#").text-black.go-prev قبلی
+                                li.page-item
+                                    a.page-link(href="#").text-black.go-next بعدی
+
+        include footer
+        script(src="../node_modules/jquery/dist/jquery.min.js")
+        script(src="../node_modules/owl.carousel/dist/owl.carousel.min.js")
+        script(src="../node_modules/slick-carousel/slick/slick.min.js")
+        script(src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js")
+        script(src="../scripts/cssMyLibrary.min.js")
+        script(src="../scripts/index.min.js")
+        script(src="scripts/store.min.js")

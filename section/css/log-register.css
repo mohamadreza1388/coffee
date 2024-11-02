@@ -1,0 +1,27 @@
+.red {
+  color: red;
+}
+
+.form-control:focus {
+  background-color: #F7F7F8;
+}
+
+.form-control:user-invalid {
+  box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.4);
+}
+
+.inp-box i {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  cursor: pointer;
+}
+
+.s-btn {
+  transition: all 300ms;
+}
+.s-btn:hover {
+  background-color: #331603;
+}
+
+/*# sourceMappingURL=log-register.css.map */

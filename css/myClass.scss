@@ -1,0 +1,52 @@
+$color1: #007E57;
+$color2: #F7F7F8;
+$color3: #EFEFF1;
+$color4: #1b1b1d;
+
+.rounded-6 {
+  border-radius: 200px;
+}
+
+.rounded-7 {
+  border-radius: 50%;
+}
+
+.green {
+  color: $color1 !important;
+}
+
+.f-rokh {
+  font-family: rokh, sans-serif;
+}
+
+.f-dana {
+  font-family: dana, sans-serif;
+}
+
+.f-iran-yekan {
+  font-family: iran-yekan, sans-serif;
+}
+
+.bg-1 {
+  background-color: $color1;
+}
+
+.bg-2 {
+  background-color: $color2;
+}
+
+.bg-3 {
+  background-color: $color3;
+}
+
+.bg-4 {
+  background-color: $color4;
+}
+
+.fs-7{
+  font-size: 13px;
+}
+
+.my-shadow{
+  box-shadow: 0 0 12px -5px #b4b4b4;
+}

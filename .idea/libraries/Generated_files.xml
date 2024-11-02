@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/scripts/cssMyLibrary.min.js" />
+        <item url="file://$PROJECT_DIR$/scripts/index.min.js" />
+        <item url="file://$PROJECT_DIR$/section/scripts/about-us.min.js" />
+        <item url="file://$PROJECT_DIR$/section/scripts/contact-us.min.js" />
+        <item url="file://$PROJECT_DIR$/section/scripts/http_unpkg.com_leaflet_dist_leaflet.min.js" />
+        <item url="file://$PROJECT_DIR$/section/scripts/order-coffee.min.js" />
+        <item url="file://$PROJECT_DIR$/section/scripts/store.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/scripts/cssMyLibrary.min.js" />
+      <root url="file://$PROJECT_DIR$/scripts/index.min.js" />
+      <root url="file://$PROJECT_DIR$/section/scripts/about-us.min.js" />
+      <root url="file://$PROJECT_DIR$/section/scripts/contact-us.min.js" />
+      <root url="file://$PROJECT_DIR$/section/scripts/http_unpkg.com_leaflet_dist_leaflet.min.js" />
+      <root url="file://$PROJECT_DIR$/section/scripts/order-coffee.min.js" />
+      <root url="file://$PROJECT_DIR$/section/scripts/store.min.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

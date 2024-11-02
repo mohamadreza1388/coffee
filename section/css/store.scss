@@ -1,0 +1,126 @@
+$color1: #007E57;
+$color2: #F7F7F8;
+$color3: #EFEFF1;
+$color4: #1b1b1d;
+
+
+.filter {
+  direction: ltr;
+}
+
+.filter header {
+  direction: rtl;
+}
+
+.input-min,
+.input-max {
+  direction: rtl;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.slider .progress {
+  left: 0%;
+  right: 0%;
+}
+
+.range-input {
+  position: relative;
+}
+
+.range-input input {
+  top: -5px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background: $color1;
+  pointer-events: auto;
+  -webkit-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+input[type="range"]::-moz-range-thumb {
+  height: 13px;
+  width: 13px;
+  border: none;
+  border-radius: 50%;
+  background: $color1;
+  pointer-events: auto;
+  -moz-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.form-select {
+  text-align: right;
+  direction: rtl;
+}
+
+.left-side {
+  header:first-child,
+  footer:last-child {
+    box-shadow: -5px 5px 5px 0px rgba(218, 218, 218, 0.16);
+
+    .active {
+      color: white !important;
+      background-color: $color1;
+      border-color: lightgrey;
+    }
+  }
+}
+
+.product-container div[class^="page"] {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  align-items: start;
+  flex-wrap: wrap;
+
+  .product {
+    margin: 0 !important;
+    flex-basis: 31% !important;
+  }
+}
+
+
+.loading {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  aspect-ratio: 4;
+  --_g: no-repeat radial-gradient(circle closest-side, #01ffad 90%, #0000);
+  background: var(--_g) 0% 50%,
+  var(--_g) 50% 50%,
+  var(--_g) 100% 50%;
+  background-size: calc(100% / 3) 100%;
+  animation: l7 1s infinite linear;
+}
+
+@keyframes l7 {
+  33% {
+    background-size: calc(100% / 3) 0%, calc(100% / 3) 100%, calc(100% / 3) 100%
+  }
+  50% {
+    background-size: calc(100% / 3) 100%, calc(100% / 3) 0%, calc(100% / 3) 100%
+  }
+  66% {
+    background-size: calc(100% / 3) 100%, calc(100% / 3) 100%, calc(100% / 3) 0%
+  }
+}

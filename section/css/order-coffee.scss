@@ -1,0 +1,40 @@
+$color1: #007E57;
+$color2: #F7F7F8;
+$color3: #EFEFF1;
+$color4: #1b1b1d;
+$color5: #e3e3e5;
+
+#coffee-container{
+  .my-container{
+    .item-wrapper{
+      flex-wrap: wrap;
+      padding-right: 32px !important;
+    }
+    .item{
+      flex-basis: 31%;
+      padding: 12px !important;
+      transition: all 500ms;
+    }
+    .active-item{
+      background-color: $color5;
+    }
+    .title-caption{
+      font-size: 14px;
+    }
+    .range-input-box input[type="range"]{
+      appearance: none;
+      height: 30px !important;
+      background-color: $color3;
+      border-radius: 200px;
+      accent-color: $color1;
+      cursor: pointer;
+    }
+    .range-input-box input[type="range"]::-webkit-slider-thumb{
+      scale: 2;
+    }
+    .error1{
+      border: 1px solid red;
+      display: none;
+    }
+  }
+}

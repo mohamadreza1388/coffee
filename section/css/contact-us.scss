@@ -1,0 +1,30 @@
+.specifications{
+  .item{
+    flex-basis: 280px;
+  }
+}
+.criticism-container{
+  input,textarea{
+    direction: rtl;
+    resize: vertical;
+    &::placeholder{
+      font-weight: 300;
+      color: #7e7e7e;
+      font-size: 14px;
+      text-align: right;
+      direction: rtl;
+    }
+  }
+}
+
+.acc{
+  width: 70%;
+  margin: 10px auto;
+  border-radius: 20px;
+  .head{
+    cursor: pointer;
+  }
+  .body{
+    display: none;
+  }
+}

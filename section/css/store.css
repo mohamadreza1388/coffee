@@ -1,0 +1,116 @@
+.filter {
+  direction: ltr;
+}
+
+.filter header {
+  direction: rtl;
+}
+
+.input-min,
+.input-max {
+  direction: rtl;
+}
+.input-min:focus,
+.input-max:focus {
+  outline: 0;
+}
+
+.slider .progress {
+  left: 0%;
+  right: 0%;
+}
+
+.range-input {
+  position: relative;
+}
+
+.range-input input {
+  top: -5px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background: #007E57;
+  pointer-events: auto;
+  -webkit-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+input[type=range]::-moz-range-thumb {
+  height: 13px;
+  width: 13px;
+  border: none;
+  border-radius: 50%;
+  background: #007E57;
+  pointer-events: auto;
+  -moz-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.form-select {
+  text-align: right;
+  direction: rtl;
+}
+
+.left-side header:first-child,
+.left-side footer:last-child {
+  box-shadow: -5px 5px 5px 0px rgba(218, 218, 218, 0.16);
+}
+.left-side header:first-child .active,
+.left-side footer:last-child .active {
+  color: white !important;
+  background-color: #007E57;
+  border-color: lightgrey;
+}
+
+.product-container div[class^=page] {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  align-items: start;
+  flex-wrap: wrap;
+}
+.product-container div[class^=page] .product {
+  margin: 0 !important;
+  flex-basis: 31% !important;
+}
+
+.loading {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  aspect-ratio: 4;
+  --_g: no-repeat radial-gradient(circle closest-side, #01ffad 90%, #0000);
+  background: var(--_g) 0% 50%, var(--_g) 50% 50%, var(--_g) 100% 50%;
+  background-size: 33.3333333333% 100%;
+  animation: l7 1s infinite linear;
+}
+
+@keyframes l7 {
+  33% {
+    background-size: 33.3333333333% 0%, 33.3333333333% 100%, 33.3333333333% 100%;
+  }
+  50% {
+    background-size: 33.3333333333% 100%, 33.3333333333% 0%, 33.3333333333% 100%;
+  }
+  66% {
+    background-size: 33.3333333333% 100%, 33.3333333333% 100%, 33.3333333333% 0%;
+  }
+}
+
+/*# sourceMappingURL=store.css.map */

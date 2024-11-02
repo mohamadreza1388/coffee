@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+  <path d="M11.6666 5.23219V8.37664C9.34163 8.41801 8.37496 9.37788 8.33329 11.6865H5.16663C2.66663 11.6865 1.66663 10.6936 1.66663 8.21118V5.23219C1.66663 2.74977 2.66663 1.75684 5.16663 1.75684H8.16663C10.6666 1.75684 11.6666 2.74977 11.6666 5.23219Z" stroke="#595959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M5.80004 4.95893C5.35837 4.66104 4.77504 4.66106 4.33337 4.9755" stroke="#595959" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M9.13329 4.95893C8.69162 4.66104 8.10829 4.66106 7.66663 4.9755" stroke="#595959" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M6.79996 9.55162H4.86663C4.61663 9.55162 4.41663 9.35299 4.41663 9.10475C4.41663 7.87181 5.42496 6.87061 6.66663 6.87061C7.19996 6.87061 7.69163 7.05262 8.07496 7.35879" stroke="#595959" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M18.3334 11.8518V14.8308C18.3334 17.3132 17.3334 18.3062 14.8334 18.3062H11.8334C9.33337 18.3062 8.33337 17.3132 8.33337 14.8308V11.6864C8.37504 9.37771 9.34171 8.41784 11.6667 8.37646H14.8334C17.3334 8.37646 18.3334 9.36939 18.3334 11.8518Z" stroke="#595959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M12.4667 11.372C12.025 11.6699 11.4417 11.6699 11 11.3555" stroke="#595959" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M15.8 11.372C15.3584 11.6699 14.775 11.6699 14.3334 11.3555" stroke="#595959" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M11.5334 13.4905H15.1334C15.3834 13.4905 15.5834 13.689 15.5834 13.9372C15.5834 15.1702 14.575 16.1715 13.3334 16.1715C12.0917 16.1715 11.0834 15.1702 11.0834 13.9372C11.0834 13.689 11.2834 13.4905 11.5334 13.4905Z" stroke="#595959" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>

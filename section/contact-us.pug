@@ -1,0 +1,101 @@
+doctype html
+html(lang="en")
+    head
+        //meta tag
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no")
+        meta(name="developer" content="mohamadreza nasrale zade---mohamadreza1388.org@gmail.com")
+        meta(name="developer phone" content="09030422838")
+        //web title
+        title سایت آماده فروشگاه قهوه و تجهیزات آن
+        //web favicon
+        link(rel="icon" type="image/png" href="images/fav-icon.svg" sizes="30x30")
+        //css link
+        link(rel="stylesheet" href="../css/style.min.css")
+        link(rel="stylesheet" href="css/http_unpkg.com_leaflet_dist_leaflet.css")
+        link(rel="stylesheet" href="css/contact-us.min.css")
+        link(rel="stylesheet" href="../css/responsive.min.css")
+    body.bg-2.d-none.overflow-x-hidden.overflow-y-auto
+        include header
+        main.pt-5
+            div.my-container.row.flex-column-reverse.flex-md-row
+                div.col-lg-6.right.position-relative.col-md-7.col-12
+                    h1.f-rokh.text-black.text-black.mb-2.width-fit-content.text-header.mt-2
+                        img(src="images/fav-icon.svg" alt="" width="38")
+                        | درباره فروشگاه ما
+                        img(src="images/dots.svg" alt="" width="38")
+                    p.fw-lighter.lh-base.font-size-17px لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                    div.specifications.row
+                        div.col-12.d-flex.justify-content-start.align-items-center.gap-3
+                            div.item.bg-3.rounded-4.height-81px.px-3.d-flex.justify-content-start.align-items-center.gap-3.flex-row
+                                    img(src="images/contact-us/call.svg" alt="").width-40px.height-40px
+                                    div.item-content
+                                        h6.font-size-18px.f-rokh.m-0 تلفن تماس :
+                                        span.fw-light.font-size-14px 09030422838
+                            div.item.bg-3.rounded-4.height-81px.px-3.d-flex.justify-content-start.align-items-center.gap-3.flex-row
+                                    img(src="images/contact-us/email.svg" alt="").width-40px.height-40px
+                                    div.item-content
+                                        h6.font-size-18px.f-rokh.m-0 ایمیل :
+                                        span.fw-light.font-size-14px user@gmail.com
+
+
+
+                        div.col-12.d-flex.justify-content-start.align-items-center.gap-3.mt-3.padding-right-90px
+                            div.item.bg-3.rounded-4.height-81px.px-3.d-flex.justify-content-start.align-items-center.gap-3.flex-row
+                                    img(src="images/contact-us/map.svg" alt="").width-40px.height-40px
+                                    div.item-content
+                                        h6.font-size-18px.f-rokh.m-0 نشانی :
+                                        span.fw-light.font-size-14px کاشان خیابان طراحان سایت
+                            div.item.bg-3.rounded-4.height-81px.px-3.d-flex.justify-content-start.align-items-center.gap-3.flex-row
+                                    img(src="images/contact-us/whatsapp.svg" alt="").width-40px.height-40px
+                                    div.item-content
+                                        h6.font-size-18px.f-rokh.m-0 شبکه های اجتماعی:
+                                        span.fw-light.font-size-14px 09030422838
+
+
+
+                div.col-lg-6.left.col-md-5.col-12
+                    img(src="images/coffee-picture4.png" alt="").w-100.left-img.height-400px.object-fit-contain.mt-2
+        section#criticism.mt-5
+            div.my-container.row
+                div.col-lg-4.col-12
+                    div.criticism-container.p-4.d-flex.justify-content-start.align-items-start.gap-2.bg-3.rounded-5.flex-column
+                        | پذیرای انتقادات و پیشنهادات شما هستیم.
+                        form(action="" method="post").d-flex.justify-content-start.align-items-start.gap-3.bg-3.flex-column.w-100
+                            input(type="text" name="user-name" id="user-name" required placeholder="نام و نام خانوادگی :").form-control.rounded-5.bg-2.border-0.py-2
+                            input(type="email" name="user-email" id="user-email" required placeholder="پست الکترونیکی :").form-control.rounded-5.bg-2.border-0.py-2
+                            input(type="text" name="title" id="title" required placeholder="موضوع پیام :").form-control.rounded-5.bg-2.border-0.py-2
+                            textarea(name="message" required rows="5").form-control.rounded-4.bg-2.border-0.py-2
+                            button(type="submit").bg-1.border-0.rounded-5.text-white.py-2.px-3 ارســـال
+
+
+                div.col-lg-8.overflow-hidden.rounded-5.col-12.min-height-400px.mt-4
+                    div#mapid.w-100.h-100.rounded-5
+        section#faq
+            div.my-container
+                h1.f-rokh.text-black.text-black.width-fit-content.text-header.my-5.mx-auto
+                    img(src="images/fav-icon.svg" alt="" width="38")
+                    | سوالات متداول
+                    img(src="images/dots.svg" alt="" width="38")
+                div.acc.bg-3.p-3
+                    div.head.f-rokh.font-size-19px.d-flex.align-items-center.justify-content-between آیا امکان خرید به صورت حضوری وجود دارد؟
+                    div.body.font-weight-300.font-size-14px.mt-2
+                        p.lh-base لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
+                div.acc.bg-3.p-3
+                    div.head.f-rokh.font-size-19px.d-flex.align-items-center.justify-content-between آیا اصالت کالا ها تضمین میشود؟
+                    div.body.font-weight-300.font-size-14px.mt-2
+                        p.lh-base لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
+                div.acc.bg-3.p-3
+                    div.head.f-rokh.font-size-19px.d-flex.align-items-center.justify-content-between امکان تعویض یا پس دادن کالا وجود دارد؟
+                    div.body.font-weight-300.font-size-14px.mt-2
+                        p.lh-base لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
+        include footer
+        script(src="../node_modules/jquery/dist/jquery.min.js")
+        script(src="../node_modules/owl.carousel/dist/owl.carousel.min.js")
+        script(src="../node_modules/slick-carousel/slick/slick.min.js")
+        script(src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js")
+        script(src="../scripts/cssMyLibrary.min.js")
+        script(src="../scripts/index.min.js")
+        script(src="scripts/http_unpkg.com_leaflet_dist_leaflet.js")
+        script(src="scripts/contact-us.min.js")
+
