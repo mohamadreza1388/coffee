@@ -397,3 +397,11 @@ main {
     }
   }
 }
+
+@media screen and (max-width: 765px){
+  .pages-wrapper{
+    .page{
+      flex-basis: 100%;
+    }
+  }
+}
