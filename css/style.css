@@ -331,4 +331,32 @@ main .left-img {
   transform: translateX(120%);
 }
 
+.pages-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+.pages-wrapper .page {
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+  flex-basis: 31%;
+}
+.pages-wrapper .page img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.pages-wrapper .page p {
+  color: black;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+.pages-wrapper .page:last-child {
+  margin-bottom: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

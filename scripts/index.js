@@ -97,7 +97,7 @@ $(function () {
         $(".right-menu").css("right", "-100%")
     })
 
-    $(".search-form").click(function () {
+    $(".right-menu .search-form").click(function () {
         $(".overlay").css("right", "0")
         $(".right-menu").css("right", "0")
         return false
